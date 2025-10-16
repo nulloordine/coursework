@@ -1,0 +1,14 @@
+.about-wrap {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;        
+}
+
+.about-wrap .avatar {
+  border-radius: 999px;   
+  display: block;
+  max-width: 220px;
+  height: auto;
+  box-shadow: 0 4px 18px rgba(0,0,0,.12);
+}

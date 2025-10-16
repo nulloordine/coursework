@@ -1,0 +1,90 @@
+site_name: Курсовая работа ICT - Владислав Долгих
+site_description: Coursework Introduction in web technologies
+site_author: Vladislav Dolgikh
+site_url: https://nulloordine.github.io/coursework/
+
+theme:
+  name: material
+  language: ru
+  font:
+    text: Montserrat
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+  palette:
+    - scheme: default
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: dark scheme
+    - scheme: slate
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: light scheme
+  logo: images/logo.png        
+  favicon: images/favicon.png    
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Контакты: contacts.md
+  - Блог:
+      - Лента: blog/index.md
+      - Первый пост: blog/posts/post1.md
+      - Второй пост: blog/posts/post2.md
+
+plugins:
+  - search:
+      lang: [ru]
+  # - sitemap:
+  #     changefreq: daily
+  #     priority: 0.5
+      
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+repo_url: https://github.com/nulloordine/coursework.git
+repo_name: nulloordine/coursework
+edit_uri: edit/main/docs/
+
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/juliadv8
+    - icon: simple/telegram
+      link: https://t.me/julienko
+
+copyright: >
+  © 2025 Nulloordine. HBM 2025
+
+# Сервисные настройки
+site_dir: site
+strict: false
+use_directory_urls: true
+docs_dir: docs
+
+
+extra_css:
+  - styles/typography.css
+  - styles/about.css
+  
