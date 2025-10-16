@@ -6,8 +6,10 @@
 
 > *Используйте меню сверху или быстрые карточки ниже, чтобы перейти в нужный раздел.*
 
----
+<div style="display: flex; align-items: center; gap: 20px;">
 
+<div style="flex: 1;">
+<p>
 ## Цели и результаты
 
 1. Показать базовую структуру сайта-документации (главная, обо мне, проекты, контакты).
@@ -66,3 +68,11 @@
 ## Где лежит код
 
 - GitHub: https://github.com/nulloordine/coursework/
+</p>
+</div>
+
+<div style="flex: 1; text-align: center;">
+  <img src="photo.jpg" alt="Моё фото" width="300"/>
+</div>
+
+</div>
