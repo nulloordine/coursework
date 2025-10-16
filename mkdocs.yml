@@ -37,8 +37,6 @@ nav:
   - Контакты: contacts.md
   - Блог:
       - Лента: blog/index.md
-      - Первый пост: blog/posts/post1.md
-      - Второй пост: blog/posts/post2.md
 
 plugins:
   - search:
